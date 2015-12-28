@@ -9,25 +9,26 @@ From JC's email:
 with special attention toward hitting the "vision, quality, and impact" criteria noted in the instructions below.
 ```
 
-So, I need a few paragraphs re this proposal:
+- What the relevant problems are
+The past five years has seen an explosion in the capabilities of sequencing technology.  The cost of sequencing DNA, RNA and associated epigenomic assays has plummeted at a rate exceeding Moore's Law, which has lead to an explosion in the volume of available data.  Projects such as ENCODE and the Epigenomic Roadmap consotrium have taken advantage of this, and together have produced vast quantities of high quality data leading, which has lead to a richer understanding of gene regulation (ENCODE citation here?).  Access to this data has made it possible for researchers to propose complex new models of gene regulation directly from sequence data.  
 
+Deep hierarchical neural network models, now commonplace in more data-rich disciplines like computer vision and natural language processing, are beginning to be adapted for sequence-based prediction problems in computational biology.  Most models published to date have focused on applying convolutional neural networks (CNNs) to DNA sequence analysis to predict protein binding, or accessibility from DNA sequence (Alipanahi et al. 2015, Zhou and Troyanskaya 2015, Kelley, Snoek and Rinn 2015).   These models learn different levels of sequence based features, beginning from motif-like filters in the first convolutional layer, to more abstract combinations of these filters in the higher layers. 
 
-- what the relevant problems are
-
-- what has been done with GPUs before
-
-	- Basset, DeepBind, Deep SEA
-
-- what we plan to do
+The hyper-rapid development of sequencing technology is also having a profound impact on cancer research.  Following in the wake of quality gene regulation data sets from ENCODE and the Epigenomics Roadmap, large scale projects such as The Cancer Genome Atlas (citation) and the International Cancer Genome Consortium (citation) are in the midst of an unprecedented effort to sequence and profile many different types of cancer, and making the data readily available online for researchers.  Our group here at Memorial Sloan Kettering Cancer Center is well positioned to leverage this publically available data together with world leading expertise in many areas of cancer research to pursue novel therapies and diagonstic procedures.
+ 
+- What we plan to do
+- 
 	- more informative feature representations (a la SeqGL)
+
 	- more modes of data rather than just sequence
 
-- why we need GPUs
+- Why we need GPUs
+	
 	- figure 6 from Basset paper
 
 - citations: 
-	- Deep Bind
-	- Deep SEA
-	- Basset (bioarxiv)
-	- DanQ (bioarxiv)
+	- Deep Bind (Alipanahi et al., )
+	- Deep SEA (Zhou and Troyanskaya, )
+	- Basset (Kelley, Snoek and Rinn, )
+	- DanQ ()
 
